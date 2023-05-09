@@ -3,9 +3,9 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.21.0/firebas
   import { getDatabase, ref, onValue} from "https://www.gstatic.com/firebasejs/9.21.0/firebase-database.js";
   
   const firebaseConfig = {
-    apiKey: "AIzaSyBXGoVyO55Ah2iELOFCd6g9LjnRXz_RyQM",
-    authDomain: "tracker-e1965.firebaseapp.com",
-    databaseURL: "https://tracker-e1965-default-rtdb.firebaseio.com",
+    apiKey: "",     //get apikey when you import firebaseconfiguration
+    authDomain: "", //get authdomain when you import firebaseconfiguration
+    databaseURL: "", //get databaseURL when you import firebaseconfiguration
     projectId: "tracker-e1965",
     storageBucket: "tracker-e1965.appspot.com",
     messagingSenderId: "733393261217",
