@@ -1,0 +1,118 @@
+*{
+  margin-left: 4px;
+  font-size: 20px;
+}
+header{
+    color: #51087E;
+    font-size: 40px;
+    margin-bottom:1.5rem;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:  250px 250px ;
+    gap: 10px;
+    border-radius: 1rem;
+    padding: 10px;
+    width: 40%;
+    height:60%;
+  
+}
+  section{
+    margin-bottom: 1rem;
+  }
+
+    .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    padding: 0.2rem;
+  }
+
+  /* .map-container{
+    position: relative;
+    top: 20px;
+  } */
+  
+  #mapholder{
+    position: absolute;
+    top: 5rem;
+    left: 40%;
+    height: 120em;
+    
+  }
+
+  /* For mobile phones: */
+
+
+@media only screen and (max-width: 600px) {
+#mapholder{
+  position: absolute;
+  left: 14px;
+  top: 5px;
+  width: 50%;
+}
+#map-container{
+  max-width: 30%;
+  top:10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 150px 150px ;
+  gap: 10px;
+  border-radius: 1rem;
+  padding: 5px;
+  width: 40%;
+  height:40%;
+
+}
+}
+
+
+@media only screen and (max-width: 768px) {
+  #mapholder{
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    width: 50%;
+  }
+  #map-container{
+    max-width: 40%;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px ;
+    gap: 10px;
+    border-radius: 1rem;
+    padding: 10px;
+    width: 50%;
+    height:60%;
+  
+  }
+
+  @media only screen and (max-width: 1200px) {
+    #mapholder{
+      position: absolute;
+      left: 2%;
+      top: 70%;
+      width: 50%;
+    }
+    #map-container{
+      max-width: 50%;
+    }
+    
+    .grid-container {
+      display: grid;
+      grid-template-columns: 200px 200px ;
+      gap: 10px;
+      border-radius: 1rem;
+      padding: 10px;
+      width: 50%;
+      height:60%;
+    
+    }
+  }
+
+}
